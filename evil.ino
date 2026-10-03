@@ -33,7 +33,7 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
   // Espera o site carregar
-  DigiKeyboard.delay(800);
+  DigiKeyboard.delay(2000);
 
   // Seleciona tudo e copia
   DigiKeyboard.sendKeyStroke(KEY_A, MOD_CONTROL_LEFT);
